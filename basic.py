@@ -175,7 +175,6 @@ class Parser:
 
 def run(fn, text):
     lexer = Lexer(fn, text)
-    # separate tokens and error variables
     tokens = lexer.make_token()
     errors = lexer.make_token()
 
